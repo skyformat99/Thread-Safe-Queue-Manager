@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		253D7BB21FFCA1ED00DCD3BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 253D7BB11FFCA1ED00DCD3BD /* main.cpp */; };
+		253D7BBA1FFCA33A00DCD3BD /* QueueManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 253D7BB81FFCA33A00DCD3BD /* QueueManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		253D7BAE1FFCA1ED00DCD3BD /* Thread Safe Queue Manager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Thread Safe Queue Manager"; sourceTree = BUILT_PRODUCTS_DIR; };
 		253D7BB11FFCA1ED00DCD3BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		253D7BB81FFCA33A00DCD3BD /* QueueManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueueManager.cpp; sourceTree = "<group>"; };
+		253D7BB91FFCA33A00DCD3BD /* QueueManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QueueManager.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				253D7BB11FFCA1ED00DCD3BD /* main.cpp */,
+				253D7BB81FFCA33A00DCD3BD /* QueueManager.cpp */,
+				253D7BB91FFCA33A00DCD3BD /* QueueManager.hpp */,
 			);
 			path = "Thread Safe Queue Manager";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				253D7BB21FFCA1ED00DCD3BD /* main.cpp in Sources */,
+				253D7BBA1FFCA33A00DCD3BD /* QueueManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
